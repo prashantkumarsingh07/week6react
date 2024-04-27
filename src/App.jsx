@@ -1,11 +1,6 @@
-
-
 import { useState } from "react"
 import { Header } from "./Header"
-
-
 function App() {
-
   const [title,setTitle] = useState("my  name is prashant"); 
  
  function updateTitle(){
@@ -19,9 +14,9 @@ function App() {
     <Header title={title}/>
     <Header title="prashant1"/>
     </>
-  
   )
 }
 
 export default App
+
 
