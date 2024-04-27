@@ -6,4 +6,5 @@ export function Header({title})
         {title}
     </div>
   )
+  
 }
