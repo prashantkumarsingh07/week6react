@@ -13,6 +13,9 @@ function App() {
     <button  onClick={updateTitle }> Click here to change the title</button>
     <Header title={title}/>
     <Header title="prashant1"/>
+    <Header title="prashant2"/>
+    <Header title="prashant3"/>
+    <Header title="prashant4"/>
     </>
   )
 }
